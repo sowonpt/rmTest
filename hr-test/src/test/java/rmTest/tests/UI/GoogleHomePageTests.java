@@ -1,8 +1,8 @@
-package rima.tests.homepage;
+package rmTest.tests.UI;
 
 import org.testng.annotations.Test;
-import rima.framework.core.BaseTest;
-import rima.pageobjects.homepage.GoogleHomepage;
+import RmTest.framework.core.BaseTest;
+import rmTest.pageobjects.homepage.GoogleHomepage;
 
 public class GoogleHomePageTests extends BaseTest {
 
