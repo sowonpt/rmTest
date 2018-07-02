@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="rm-Test" />
-        <module name="rmTest-framework" />
         <module name="rmTest-page-objects" />
       </profile>
     </annotationProcessing>
@@ -17,7 +16,7 @@
       <module name="rm-Test" target="1.8" />
       <module name="rmHR-test" target="1.8" />
       <module name="rmTest-framework" target="1.5" />
-      <module name="rmTest-page-objects" target="1.5" />
+      <module name="rmTest-page-objects" target="6" />
       <module name="Test-Automation-Framework" target="1.5" />
     </bytecodeTargetLevel>
   </component>
