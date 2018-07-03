@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(tags = {"@BuySearch"}
-        , format = {"pretty", "html:target/SmokeTests/cucumber", "json:target/SmokeTests/cucumber.json"}
-        , glue = {"voyanta.ui.reportsTableau","voyanta.ui.StepDefUtil"})
+        , format = {"pretty", "html:target/SearchBuy/cucumber", "json:target/SearchBuy/cucumber.json"}
+        , glue = {"rmTest.pageobjects","rmTest.tests.UI.Search"})
 public class SearchBuyTest {
 }

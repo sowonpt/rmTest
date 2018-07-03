@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c206ae18-e75a-4b80-94ee-7a560ae73672" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-test/rm-Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-test/rm-Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/BuyProperty/SearchBuy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/BuyProperty/SearchBuy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/BasePageContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/BasePageContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/domain/target/" />
@@ -24,60 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1591">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BuyPageStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="60" column="116" selection-start-line="60" selection-start-column="116" selection-end-line="60" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3199#3200#0" expanded="true" />
-                <element signature="e#3244#3245#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchBuyTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchBuyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,17 +55,31 @@
       <file leaf-file-name="SearchBuy.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/BuyProperty/SearchBuy.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="153">
+              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePageContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/BasePageContainer.java">
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+            <state relative-caret-position="-716">
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="195" selection-start-line="195" selection-end-line="195" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +101,6 @@
       <find>@RentProperty</find>
       <find>@BuyProperty</find>
       <find>non-featured</find>
-      <find>non-featured</find>
       <find>for a flat</find>
       <find>RentSearch</find>
       <find>property for rent</find>
@@ -137,6 +117,7 @@
       <find>rent search</find>
       <find>buy search</find>
       <find>getsor</find>
+      <find>setr</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -155,6 +136,7 @@
       <replace>BaseTest</replace>
       <replace>LOGGER.info(&quot;Entering search criteris&quot;);</replace>
       <replace>buy search</replace>
+      <replace>sale search</replace>
       <replace>sale search</replace>
     </replaceStrings>
   </component>
@@ -202,13 +184,14 @@
         <option value="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/HomePageContainer.java" />
         <option value="$PROJECT_DIR$/page-objects/src/main/java/utils/VerifyUtils.java" />
         <option value="$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/RentProperty/SearchRent.feature" />
-        <option value="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/BasePageContainer.java" />
-        <option value="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java" />
         <option value="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BaseTest.java" />
-        <option value="$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/BuyProperty/SearchBuy.feature" />
-        <option value="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java" />
+        <option value="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/HomePage.java" />
         <option value="$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java" />
         <option value="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java" />
+        <option value="$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/BasePageContainer.java" />
+        <option value="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java" />
+        <option value="$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/BuyProperty/SearchBuy.feature" />
+        <option value="$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java" />
       </list>
     </option>
   </component>
@@ -243,7 +226,65 @@
             <path>
               <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="RmTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="RmTest" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
@@ -317,17 +358,6 @@
               <item name="rmTest.tests.UI" type="462c0819:PsiDirectoryNode" />
               <item name="UserSearch" type="462c0819:PsiDirectoryNode" />
               <item name="BuyProperty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="hr-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="rmTest.tests.UI" type="462c0819:PsiDirectoryNode" />
-              <item name="UserSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="RentProperty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test-Automation-Framework" type="b2602c69:ProjectViewProjectNode" />
@@ -407,9 +437,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="rmTest.pageobjects" />
       <recent name="rmTest.pagecontainers" />
       <recent name="utils" />
-      <recent name="rmTest.pageobjects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\30028\Documents\Personal files\Framework\page-objects\src\main\resources" />
@@ -439,12 +469,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SearchBuyTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SearchBuyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rm-Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rmTest.tests.UI.Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rmTest.tests.UI.Search" />
+      <option name="MAIN_CLASS_NAME" value="rmTest.tests.UI.Search.SearchBuyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -528,8 +581,13 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="TestNG.GoogleHomePageTests" />
+      <item itemvalue="JUnit.SearchBuyTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchBuyTest" />
         <item itemvalue="TestNG.GoogleHomePageTests" />
       </list>
     </recent_temporary>
@@ -558,12 +616,12 @@
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3292683" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Messages" weight="0.32616487" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297491" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -572,16 +630,18 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24959481" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24959481" />
       <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -589,7 +649,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -597,6 +657,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/main/java/rima/framework/core/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/main/java/rima/framework/core/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rima/pageobjects/homepage/GoogleHomepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -617,12 +717,6 @@
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/InvalidSearch.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hr-test/src/Main/java/rmTest/tests/UI/GoogleHomePageTests.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,9 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/utils/ImplementedBy.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/utils/ImplementedByProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -739,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,10 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/Homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.0.1/selenium-api-3.0.1.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -878,32 +952,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/GoogleHomePageTests.java">
+    <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/GoogleHomePageTests.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="177">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java">
+    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1.jar!/org/openqa/selenium/support/ui/Select.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pagecontainers/BasePageContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="867">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -912,41 +1010,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hr-test/src/test/resources/rmTest.tests.UI/UserSearch/BuyProperty/SearchBuy.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/utils/VUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3199#3200#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/BuyPageStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1591">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="60" column="116" selection-start-line="60" selection-start-column="116" selection-end-line="60" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -955,12 +1027,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-objects/src/main/java/rmTest/pageobjects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        <state relative-caret-position="-716">
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hr-test/src/test/java/rmTest/tests/UI/Search/SearchBuyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

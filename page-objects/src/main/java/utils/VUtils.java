@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import rmTest.pagecontainers.BasePageContainer;
 import rmTest.pageobjects.BasePage;
 import rmTest.pageobjects.BaseTest;
 import java.beans.IntrospectionException;
@@ -27,12 +28,13 @@ import static org.junit.Assert.fail;
 public class VUtils {
 
     private static int waitAcceleration;
+    BasePageContainer pageContainer;
+    static WebDriverWait wait = new WebDriverWait(BasePage.getCurrentDriver(), 30);
+    static Logger LOGGER = Logger.getLogger(VUtils.class);
 
     static {
         waitAcceleration = Integer.parseInt(PropertiesLoader.getProperty("wait.acceleration"));
     }
-
-    static Logger LOGGER = Logger.getLogger(VUtils.class);
 
     public static void waitFor(int i) {
         try {
@@ -190,4 +192,7 @@ public class VUtils {
         return false;
     }
 
+    public static void setSearchFilter(String s, String s1) {
+
+    }
 }

@@ -48,4 +48,7 @@ public class BasePageContainer {
     @FindBy(how = How.ID, using = "primaryContent")
     public static WebElement PrimaryContent;
 
+    @FindBy(how = How.ID, using = "submit")
+    public static WebElement Submit;
+
     }

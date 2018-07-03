@@ -20,14 +20,14 @@ Feature: As a user, I want find property to buy
     Then user sees search results
 
     Examples:
-      | Location | Radius | minPrice | maxPrice | minBedrooms | maxBedrooms | PropertyType |
-      | SE3      | 10     |          | 450000   | 2           |             |              |
+      | Location | Radius          | minPrice | maxPrice | minBedrooms | maxBedrooms | PropertyType |
+      | SE3      | Within 10 miles |          | 450,000  | 2           |             |              |
 
   @BuySearch @UserSearch_non-featured
   Scenario Outline: Searching for a non-featured property for purchase
     And the user searches for property to buy by 'location'
     Then the user sees the sale search criteria
-    And user enters search criteria as follows
+    When user enters search criteria as follows
       | Location            | <Location>     |
       | Search radius       | <Radius>       |
       | Price range (min)   | <minPrice>     |
@@ -36,13 +36,14 @@ Feature: As a user, I want find property to buy
       | Max No. of bedrooms | <maxBedrooms>  |
       | Property type       | <PropertyType> |
 
+    And user applies the filters
     Then user sees search results
     And the user selects a non-featured property
-    Then the user see the property details page
+    Then the user sees the property details page
 
     Examples:
-      | Location | Radius | minPrice | maxPrice | minBedrooms | maxBedrooms | PropertyType |
-      | SE3      | 5     |          | 700   | 3           |             |              |
+      | Location | Radius         | minPrice | maxPrice | minBedrooms | maxBedrooms | PropertyType |
+      | SE3      | Within 5 miles |          | 700,000  | 3           |             |              |
 
 
 #  @BuySearch @UserSearch_PartialValidLocation
