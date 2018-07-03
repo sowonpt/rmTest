@@ -43,6 +43,20 @@ public class VUtils {
         }
     }
 
+    public static Map<String, String> getSortedHashMap(DataTable dataTable) {
+        Map<String, String> map = new LinkedHashMap<String, String>();
+
+
+        for (List<String> drIn : dataTable.asLists(String.class)) {
+
+            System.out.print(drIn);
+            map.put(drIn.get(0), drIn.get(1));
+
+        }
+
+        return map;
+    }
+
     public static void waitForJQuery(WebDriver driver) {
         (new WebDriverWait(driver, 240)).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
@@ -81,6 +95,8 @@ public class VUtils {
         }
         return false;
     }
+
+
 
     public static void captureScreen(Scenario scenario) {
         // try {
@@ -149,19 +165,6 @@ public class VUtils {
         return rowList;
     }
 
-    public static Map<String, String> getSortedHashMap(DataTable dataTable) {
-        Map<String, String> map = new LinkedHashMap<String, String>();
-
-
-        for (List<String> drIn : dataTable.asLists(String.class)) {
-
-            System.out.print(drIn);
-            map.put(drIn.get(0), drIn.get(1));
-
-        }
-
-        return map;
-    }
 
     public static void waitForAttribute(WebElement element, String attribute, String value) {
 

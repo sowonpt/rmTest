@@ -8,12 +8,8 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.server.handler.FindElements;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import rmTest.pagecontainers.BasePageContainer;
 import rmTest.pageobjects.BasePage;
@@ -22,9 +18,7 @@ import utils.PropertiesLoader;
 import utils.VUtils;
 import utils.VerifyUtils;
 
-import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 public class BuyPageStepdefs extends BasePage {
 
@@ -70,12 +64,8 @@ public class BuyPageStepdefs extends BasePage {
         BasePageContainer.FilterMaxBed.sendKeys(maxBedrooms);
         VUtils.waitFor(1);
         BasePageContainer.FilterPropType.sendKeys(PropertyType);
-        VUtils.waitFor(1);
-        if (!BasePageContainer.IncludeSold.isSelected()) {
-            BasePageContainer.IncludeSold.click();
-            LOGGER.info("Entering search criteria");
             throw new PendingException();
-        }
+
     }
 
     @Then("^user sees search results$")

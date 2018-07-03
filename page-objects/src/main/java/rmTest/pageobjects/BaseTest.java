@@ -1,6 +1,6 @@
 package rmTest.pageobjects;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +20,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
@@ -135,39 +134,6 @@ public class BaseTest {
         WebDriver mBrowser;
         System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\geckodriver.exe");
 
-//        try
-//        {
-//            String remoteValue = REMOTE_BROWSER;
-//            if (remoteValue != null && remoteValue.equalsIgnoreCase("true")) {
-//            LOGGER.info("Getting remote firefox web driver");
-//            LOGGER.info("Preparing local firefox profile");
-//            FirefoxProfile profile = new FirefoxProfile();
-//            profile.setPreference("browser.download.folderList", 2);
-//            profile.setPreference("browser.download.manager.showWhenStarting", false);
-//            profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "image/jpg, text/csv,text/xml,application/xml,application/vnd.ms-excel,application/x-excel,application/x-msexcel,application/excel,application/pdf, application/csv");
-//            profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "text/csv");
-//                profile.setPreference("browser.helperApps.neverAsk.saveToDisk","application/octet-stream");
-//            profile.setPreference("browser.download.dir", System.getProperty("user.home"));
-//            profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/xlsx,application/octet-stream,application/x-msdos-program, application/x-unknown-application-octet-stream, application/vnd.ms-powerpoint, application/excel, application/vnd.ms-publisher, application/x-unknown-message-rfc822, application/vnd.ms-excel, application/msword, application/x-mspublisher, application/x-tar, application/zip, application/x-gzip,application/x-stuffit,application/vnd.ms-works, application/powerpoint, application/rtf, application/postscript, application/x-gtar, video/quicktime, video/x-msvideo, video/mpeg, audio/x-wav, audio/x-midi, audio/x-aiff,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml");
-//            profile.setAcceptUntrustedCertificates(true);
-//            profile.setAssumeUntrustedCertificateIssuer(false);
-//            DesiredCapabilities firefox = DesiredCapabilities.firefox();
-    //   firefox.setVersion(version);
-//            firefox.setPlatform(Platform.ANY);
-//                firefox.setCapability("marionette", true);
-//            firefox.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
-//            firefox.setCapability(FirefoxDriver.PROFILE, profile);
-
-    //Uncomment line below to enable remote testing from your build machine with VM images
-//                mBrowser = new RemoteWebDriver(new URL("http://9.79.12.251:4444/wd/hub"), DesiredCapabilities.firefox());
-
-//            mBrowser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    //mBrowser.manage().window().setPosition(new Point(0,0));
-    //java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-    //Dimension dim = new Dimension((int) screenSize.getWidth(), (int) screenSize.getHeight());
-    //mBrowser.manage().window().setSize(dim);
-
-//            } else {
                 LOGGER.info("Preparing local firefox profile");
                 FirefoxProfile profile = new FirefoxProfile();
                 profile.setPreference("browser.download.folderList", 2);
@@ -180,16 +146,10 @@ public class BaseTest {
     //  profile.setPreference("browser.helperApps.neverAsk.saveToDisk","application/octet-stream");
     // profile.setPreference("browser.helperApps.neverAsk.saveToDisk",default)
                 profile.setPreference("browser.download.dir", System.getProperty("user.home"));
-//
                 LOGGER.info("Getting local firefox web driver");
-//
+
     mBrowser = createFirefoxDriver(profile);
-//}
-//        }
-//             catch (Exception e) {
-//                LOGGER.error("Could not start browser for reason " + e.getMessage());
-//                throw new RuntimeException("could not start Browser Factory", e);
-//            }
+
             return mBrowser;
         }
 
@@ -212,47 +172,7 @@ public class BaseTest {
     private static WebDriver getChromeDriver(boolean isHeadless) {
         LOGGER.info("getChromeDriver()");
         WebDriver mBrowser;
-//        String remoteValue = REMOTE_BROWSER;
 
-//        try {
-//
-//            if (remoteValue != null && remoteValue.equalsIgnoreCase("true")) {
-//                LOGGER.info("Getting remote chrome web driver");
-//                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
-//                HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-//                chromePrefs.put("profile.default_content_settings.popups", 0);
-//
-//                // TO TURN OFF MULTIPLE DOWNLOAD WARNING
-//                chromePrefs.put("profile.default_content_settings.popups", 0);
-//                chromePrefs.put( "profile.content_settings.pattern_pairs.*.multiple-automatic-downloads", 1 );
-//                chromePrefs.put("profile.default_content_setting_values.automatic_downloads",1);
-//                // TO TURN OFF DOWNLOAD PROMPT
-//                chromePrefs.put("download.prompt_for_download", "false");
-//                chromePrefs.put("download.default_directory", System.getProperty("user.home"));
-//
-//                ChromeOptions options = new ChromeOptions();
-//                options.setExperimentalOption("prefs", chromePrefs);
-//                if (isHeadless) {
-//                    options.addArguments("headless");
-//                    options.addArguments("disable-gpu");
-//                    options.addArguments("disable-bundled-ppapi-flash");
-//                }
-//                options.addArguments("--start-maximized");
-//                options.addArguments("--disable-infobars");
-//                options.addArguments("--lang=en-GB");
-//                DesiredCapabilities chrome = DesiredCapabilities.chrome();
-//                chrome.setCapability("chrome.switches", Arrays.asList("--start-maximized"));
-//                chrome.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
-//                chrome.setCapability(ChromeOptions.CAPABILITY, options);
-//
-//                mBrowser = new ScreenShotRemoteWebDriver(new URL(LOCAL_SELENIUM_GRID_URL), chrome);
-//            } else
-//                {
-//                LOGGER.info("Getting local chrome web driver");
-//                DesiredCapabilities chrome = DesiredCapabilities.chrome();
-//                System.out.println(System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
-//                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
-//                mBrowser = new ChromeDriver(chrome);
 
         LOGGER.info("Getting local chrome web driver");
         DesiredCapabilities chrome = DesiredCapabilities.chrome();
@@ -290,11 +210,7 @@ public class BaseTest {
         mBrowser.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 
-//        } catch (Exception e) {
-//            LOGGER.info("Error with chrome driver initialisation. " + e.getMessage());
-//            e.printStackTrace();
-//            return null;
-//        }
+
         return mBrowser;
     }
 

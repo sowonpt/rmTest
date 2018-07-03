@@ -18,13 +18,12 @@ import java.util.Map;
 
 public class BasePage {
 
-    public static class HomePage extends BaseTest {
-        final static String URL = PropertiesLoader.getProperty("ui_url");
-        WebDriver driver = BaseTest.getBrowser();
-        BasePageContainer basePestContainer = this.getDataContainer(BasePageContainer.class);
-        private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(BaseTest.class);
+    final static String URL = PropertiesLoader.getProperty("ui_url");
+    WebDriver driver = BaseTest.getBrowser();
+    BasePageContainer basePestContainer = this.getDataContainer(BasePageContainer.class);
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(BaseTest.class);
 
-        public HomePage() {
+        public BasePage() {
             super();
         }
 
@@ -34,14 +33,13 @@ public class BasePage {
             return boundDataContainer;
         }
 
-        public static HomePage openPage() {
+
+    public static HomePage openPage() {
             BaseTest.getBrowser().get(URL);
             return new HomePage();
-
-        }
-
-
     }
+
+  
 
 //    private static final int TIMEOUT = 5; //seconds
 //    private static final int POLLING = 100; //milliseconds
